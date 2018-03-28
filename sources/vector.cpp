@@ -99,7 +99,7 @@ void vector_t::pop_back()
         return;
     }
     --size_;
-    if ( capacity_ = 4*size_){
+    if ( capacity_ == 4*size_){
         capacity_= capacity_/2;
         int * elements_curr = new int [capacity_];
         for( unsigned i = 0; i < size_; ++i)
