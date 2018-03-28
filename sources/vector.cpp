@@ -7,7 +7,7 @@ vector_t::vector_t()
 {
     elements_ = nullptr;
 	size_ = 0;
-	capasity_= 0;
+	capaсity_= 0;
 }
 
 vector_t::vector_t(vector_t const & other)
