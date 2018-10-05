@@ -5,4 +5,4 @@ cmake -H. -B_builds -DBUILD_TESTS=ON
 cmake --build _builds
 cmake --build _builds --target test -- ARGS=--verbose
 ```
-[VECTOR][https://en.cppreference.com/w/cpp/container/vector#L67]
+[VECTOR](https://en.cppreference.com/w/cpp/container/vector#L67)
